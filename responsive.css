@@ -1,0 +1,213 @@
+@media(max-width:1068px){
+    .nav_links ul li {
+        padding: 10px;
+    }
+}
+@media(max-width:768px){
+    .btns_wreper{
+        padding: 20px;
+    }
+    .generator{
+        display: block;width: 100vw;padding: 0;
+    }
+    .genretor_content p{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .genretor_content h1{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .genretor_img{
+        margin-top: 10rem;
+    }
+    .header{
+        justify-content: space-between;margin: 0 40px;
+    }
+    .sociol_icon {
+        gap: 10px;
+    }
+    .nav_links ul li,.sociol_icon {
+        display: none;
+    }
+    .readable{
+        display: block;
+        padding: 0;
+    }
+    .readable_content{
+        width: 100vw;
+    }
+    .readable_content .long{
+        padding: 20px;
+    }
+    .inp {
+        width: 90vw;
+    }
+    .press {
+        margin-left: -10px;
+    }
+    .answer_persen{
+        width: 100vw;
+        gap: 20px;
+    }
+    .answer_persen div {
+        width: 75vw;
+    }
+    .qustion {
+        width: 85vw;
+        margin: 30px;
+        padding: 0 30px;
+    }.your_quiz_content {
+        width: 90vw;
+    }
+    .readable_img {
+        left: 0;
+        width: 100%;
+    }
+    .readable_img p,.product_img p {
+        font-size: 15px;
+    }
+    .myprice{
+        right: 200px;
+    }
+    .Portablity,.Ease {
+        right: 15px;
+    }
+    .Wattage {
+        right: 170px;
+        bottom: 280px;
+    }
+    .thisPrice {
+        left: 60px;
+    }
+    .product_img_content{
+        display: block;
+        margin: auto  65px;
+        gap: 0;
+    }
+    .product_img{
+        width: 100vw;
+    }
+    .product_img img {
+        width: 200px;
+        height: 200px;
+    }
+    .product_img_content .hr {
+        display: none;
+    }
+    .product_img .myprice {
+        top: -50px;
+        left: -40px;
+    } 
+    .product_img .Portablity {
+        top: 10px;
+        left: 60px;
+    }
+    .product_img .Ease {
+        top: 90px;
+        right: 160px;
+    }
+    .product_img .Wattage {
+        bottom: -10px;
+        left: -60px;
+    }
+    .product_img .thisPrice {
+        top: 90px;
+        left: -30px;
+    }
+    .product_img .thisEase {
+        top: 5px;
+        left: -80px;
+    }
+    .product_content {
+        display: block;
+        margin-top: 10rem;
+    }
+    .product_content p {
+        margin:40px 0;
+    }
+    .generator_listing .generator_box{
+        width: 100vw;
+    }
+    .generator_listing .generator_box .generoter_box_content{
+        width: 80vw;
+    }
+    .generoter_box_content .box_content button{
+        left: 460px;
+    }
+    .footer{
+        width: 95vw;
+        margin: auto;
+        height: auto;
+        padding: 0;
+    }
+    .footer_generoter p{
+        font-size: 12px;
+    }
+    .footer_generoter img{
+    left: 80px;
+    }
+    .footer > img{
+        width: 80px;
+        height: 50px;
+        left: -5px;
+    } 
+    .footer_icon{
+        display: block;
+    }
+    .footer_icon .icon{
+        width: 200px;
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+    .footer .icon .hr{
+    margin-left: 9px;
+    }
+    .footer .icon p{
+        margin-left: -10px;
+    }
+}
+
+@media(max-width:575px){
+    .answer_persen{
+        width: 100vw;
+        gap: 20px;
+    }
+    .nav_links ul li,.bars {
+        display: block;
+    }
+    .nav_links{
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-color: #2f3640;
+        top: 140px;
+        left: -100%;
+        text-align: center;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+    .nav_links ul{
+        display: block;
+    }
+    .nav_links.show{
+        left: 0;
+    }
+    .nav_links ul li{
+        margin: 30px 0;
+        line-height: 30px;
+    }
+    .nav_links ul li i{
+        display: none;
+    }
+    .nav_links.show ul{
+        opacity: 1;
+    }
+    
+    .readable{
+        display: block;
+    }
+    .readable_content{
+        width: 100vw;
+    }
+}
